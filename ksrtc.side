@@ -1,0 +1,752 @@
+{
+  "id": "829c00a5-e31f-4f06-834a-38db0218915d",
+  "version": "2.0",
+  "name": "ksrtc",
+  "url": "https://ksrtc.in",
+  "tests": [{
+    "id": "7ded5026-aa9c-49e4-9f6f-113bbf238eb4",
+    "name": "",
+    "commands": []
+  }, {
+    "id": "52db9a84-cefe-49aa-a3fd-8d1bbb3cd8b9",
+    "name": "one",
+    "commands": [{
+      "id": "9c442f5f-640b-42ef-8f05-12b372807e4e",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dd3446b-512c-4a04-ac68-6f02859dfe73",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "322f6c38-7f6e-4ff6-b5cf-d3b6d6355bfc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PNR Enquiry",
+      "targets": [
+        ["linkText=PNR Enquiry", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'PNR Enquiry')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oprs-web/ticket/waitlist.do')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PNR Enquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5cc92fb-08ae-4980-835d-5afa39230c07",
+      "comment": "",
+      "command": "click",
+      "target": "id=contact-tab",
+      "targets": [
+        ["id=contact-tab", "id"],
+        ["linkText=Service Status", "linkText"],
+        ["css=#contact-tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Service Status')]", "xpath:link"],
+        ["xpath=//a[@id='contact-tab']", "xpath:attributes"],
+        ["xpath=//ul[@id='myTab']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#contact')]", "xpath:href"],
+        ["xpath=//form/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Service Status')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "178e5282-2812-46e9-ad85-bbdfc0e0c139",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=By Trip Code",
+      "targets": [
+        ["linkText=By Trip Code", "linkText"],
+        ["css=#contact .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'By Trip Code')]", "xpath:link"],
+        ["xpath=//div[@id='contact']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#trip-code')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'By Trip Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6420cae-624d-4562-aea8-ebdb146837e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Trip-code .form-label-group:nth-child(2) > label",
+      "targets": [
+        ["css=#Trip-code .form-label-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//div[@id='Trip-code']/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9e26650-88fc-4ab8-a96b-7f8f6284c009",
+      "comment": "",
+      "command": "type",
+      "target": "id=serviceCode",
+      "targets": [
+        ["id=serviceCode", "id"],
+        ["name=serviceCode", "name"],
+        ["css=#serviceCode", "css:finder"],
+        ["xpath=//input[@id='serviceCode']", "xpath:attributes"],
+        ["xpath=//div[@id='Trip-code']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "54886683-08f9-48ab-9d90-c89c6ecdbbd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(4) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(4) > label", "css:finder"],
+        ["xpath=//div[@id='Trip-code']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c1bcc67-327c-42d3-a078-2ba230c479a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(4) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(4) > label", "css:finder"],
+        ["xpath=//div[@id='Trip-code']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84233b16-ce22-44dd-ad66-94d08e50c3cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=31",
+      "targets": [
+        ["linkText=31", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'31')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[6]/td/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[40]", "xpath:href"],
+        ["xpath=//tr[6]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'31')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cee3b1fd-4271-4b67-bd78-353f0b1b4857",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#Trip-code #searchBtn",
+      "targets": [
+        ["css=#Trip-code #searchBtn", "css:finder"],
+        ["xpath=(//input[@id='searchBtn'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='Trip-code']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7db3369b-afbf-4dc1-bcde-328301571e6e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#Trip-code #searchBtn",
+      "targets": [
+        ["css=#Trip-code #searchBtn", "css:finder"],
+        ["xpath=(//input[@id='searchBtn'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='Trip-code']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b0f18ba-d8e4-4112-b306-1beae9f3ebdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Trip-code #searchBtn",
+      "targets": [
+        ["css=#Trip-code #searchBtn", "css:finder"],
+        ["xpath=(//input[@id='searchBtn'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='Trip-code']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96538d75-dd16-48f8-9087-b25606b2c7da",
+      "comment": "",
+      "command": "click",
+      "target": "id=errorMsg",
+      "targets": [
+        ["id=errorMsg", "id"],
+        ["css=#errorMsg", "css:finder"],
+        ["xpath=//div[@id='errorMsg']", "xpath:attributes"],
+        ["xpath=//section/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f328ea76-6d86-4d14-8986-9ac50d2e3499",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#errorMsg > strong",
+      "targets": [
+        ["css=#errorMsg > strong", "css:finder"],
+        ["xpath=//div[@id='errorMsg']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Please enter valid service details.\n')]", "xpath:innerText"]
+      ],
+      "value": "Please enter valid service details."
+    }]
+  }, {
+    "id": "ad4ba88f-faf3-4eab-ace0-601d8677e96c",
+    "name": "two",
+    "commands": [{
+      "id": "50139cee-cef7-4ca7-85a6-b21a17575c6a",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e46ceea-f71b-44ae-9ee0-82a0f026c4ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e51ca7b-39a8-4f78-a747-5649cf875360",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cancel Tickets",
+      "targets": [
+        ["linkText=Cancel Tickets", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancel Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oprs-web/guest/ticket/cancel.do')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancel Tickets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c6aaa19-1c70-493f-ba54-82cb1dfe4630",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(3) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[@id='home']/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f08e0e1-d86c-4c6c-bdab-5d9077a68a47",
+      "comment": "",
+      "command": "type",
+      "target": "id=pnrPrefixWithTktNo",
+      "targets": [
+        ["id=pnrPrefixWithTktNo", "id"],
+        ["name=pnrPrefixWithTktNo", "name"],
+        ["css=#pnrPrefixWithTktNo", "css:finder"],
+        ["xpath=//input[@id='pnrPrefixWithTktNo']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "a89ef041-aecb-453b-89e5-2cd346019f41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(5) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(5) > label", "css:finder"],
+        ["xpath=//div[@id='home']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9fd4f41-8805-42c4-b74c-76cb492060d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=uidNumber",
+      "targets": [
+        ["id=uidNumber", "id"],
+        ["name=uidNumber", "name"],
+        ["css=#uidNumber", "css:finder"],
+        ["xpath=//input[@id='uidNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "e78f406c-d117-4d58-9dcf-c9a80225bc2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(7) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(7) > label", "css:finder"],
+        ["xpath=//div[@id='home']/div/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b5e9aa1-1798-4bbc-80cb-709b6786a89d",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobileNo",
+      "targets": [
+        ["id=mobileNo", "id"],
+        ["name=mobileNo", "name"],
+        ["css=#mobileNo", "css:finder"],
+        ["xpath=//input[@id='mobileNo']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "9840612462"
+    }, {
+      "id": "50f74056-ea01-4e39-aefa-ae6a0a530912",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchBtn",
+      "targets": [
+        ["id=searchBtn", "id"],
+        ["name=searchBtn", "name"],
+        ["css=#searchBtn", "css:finder"],
+        ["xpath=//input[@id='searchBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f20a00b6-6df9-471b-bd0e-7d10e65905c4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3.200000047683716)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55ca8ebf-e3eb-4eb2-8bdb-fd668e426fd4",
+      "comment": "",
+      "command": "click",
+      "target": "id=errorMsg",
+      "targets": [
+        ["id=errorMsg", "id"],
+        ["css=#errorMsg", "css:finder"],
+        ["xpath=//div[@id='errorMsg']", "xpath:attributes"],
+        ["xpath=(//div[@id='BookedTicketsDivId']/div)[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aa8ebfe-c04d-4e49-82db-b223f85b22cf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#errorMsg > strong",
+      "targets": [
+        ["css=#errorMsg > strong", "css:finder"],
+        ["xpath=//div[@id='errorMsg']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Please Enter valid PNR No. /Txn Password/Mobile No.\n')]", "xpath:innerText"]
+      ],
+      "value": "Please Enter valid PNR No. /Txn Password/Mobile No."
+    }]
+  }, {
+    "id": "3c1d32ca-5db1-4e5e-bbb1-71f206d8e32b",
+    "name": "three",
+    "commands": [{
+      "id": "8ffa0be1-813e-49cc-9761-a7d3aad6b19e",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e003056-51ec-4daf-9e88-6e07ea1af96a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65e0709b-cc0e-400e-9049-64874b155967",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.fl-right > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/oprs-web/login/show.do')]", "xpath:href"],
+        ["xpath=//div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d912532-a046-4202-9586-3f8353f26992",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(2) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User Name')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f539549f-3eb9-4eaa-aee3-8cf0c19800b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["name=userName", "name"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Rahul"
+    }, {
+      "id": "09a38c5d-1c25-4d87-b292-256c1acb184d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "f34d7751-5f57-4937-a5ec-93834a2b4f57",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitBtn",
+      "targets": [
+        ["id=submitBtn", "id"],
+        ["name=submitBtn", "name"],
+        ["css=#submitBtn", "css:finder"],
+        ["xpath=//input[@id='submitBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9eec514-d9c0-48e2-98f5-68287bd636ae",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//div[@id='errorMsg']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Login incorrect. Please try again\n')]", "xpath:innerText"]
+      ],
+      "value": "Login incorrect. Please try again"
+    }]
+  }, {
+    "id": "ec0533a5-9426-4036-8fb0-bc8326755c41",
+    "name": "four",
+    "commands": [{
+      "id": "0793f9c1-fd6f-4ca9-b888-00c5008f6502",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7aa21e7-e78b-409d-bea0-81cada1e725f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "164f5db3-a416-465f-bf01-f884fd4cd9d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.head-first-link p",
+      "targets": [
+        ["css=.head-first-link p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Operator / Franchisee')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b75fd5c6-5f88-4e58-8898-e0eb9bf67493",
+      "comment": "",
+      "command": "click",
+      "target": "css=.head-first-link p",
+      "targets": [
+        ["css=.head-first-link p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Operator / Franchisee')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8492",
+      "windowTimeout": 2000
+    }, {
+      "id": "04335bde-8be0-4637-a6b2-262e3c30dcd8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.head-first-link p",
+      "targets": [
+        ["css=.head-first-link p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Operator / Franchisee')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "372cef4a-dab4-4ee3-afd6-b4c0962a91b2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8492}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c83f33f-f407-4ccd-962a-df31717f4106",
+      "comment": "",
+      "command": "type",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=span:nth-child(2) > .requiredfield", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/table/tbody/tr[2]/td/div/div[2]/div[2]/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "rahul"
+    }, {
+      "id": "4eb75dda-4130-4293-88b2-8cae7159acb1",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=span:nth-child(4) > .requiredfield", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/table/tbody/tr[2]/td/div/div[2]/div[2]/span[4]/input", "xpath:idRelative"],
+        ["xpath=//span[4]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "46ea3d17-30a0-415f-8be3-da655c00aa93",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitBtn",
+      "targets": [
+        ["name=submitBtn", "name"],
+        ["css=.submitbuttonOver", "css:finder"],
+        ["xpath=//input[@name='submitBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/table/tbody/tr[2]/td/div/div[2]/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "513dc74a-a5a2-485a-a31e-5ae10a5a1514",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitBtn",
+      "targets": [
+        ["name=submitBtn", "name"],
+        ["css=.submitbuttonOver", "css:finder"],
+        ["xpath=//input[@name='submitBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/table/tbody/tr[2]/td/div/div[2]/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1b02f5ea-78c1-4d9f-ba41-91be0b2c9994",
+    "name": "five",
+    "commands": [{
+      "id": "6b4c9789-a432-4dc3-8758-3a44956f228d",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64972d0e-c84c-485d-a9be-9546c9354c4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c76b65a2-74f7-4e72-a21c-d0bba3b649ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student Pass",
+      "targets": [
+        ["linkText=Student Pass", "linkText"],
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Student Pass')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/student-pass.html')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student Pass')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a820328d-050b-49f5-9aa2-055c823cc264",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click Here",
+      "targets": [
+        ["linkText=Click Here", "linkText"],
+        ["css=font > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Click Here')]", "xpath:link"],
+        ["xpath=//div[@id='content']/span/div/font/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sevasindhu.karnataka.gov.in/Sevasindhu/English')]", "xpath:href"],
+        ["xpath=//font/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click Here')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7176",
+      "windowTimeout": 2000
+    }, {
+      "id": "db16c5d3-f54d-4cfa-a372-959c11162aa2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7176}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48dd0921-6c8e-4152-9f3a-354d1b57df74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4:nth-child(1) .third-div",
+      "targets": [
+        ["css=.col-sm-4:nth-child(1) .third-div", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f07ed0cc-e636-4a29-bd32-5c6bffec090b",
+      "comment": "",
+      "command": "click",
+      "target": "id=groups",
+      "targets": [
+        ["id=groups", "id"],
+        ["css=#groups", "css:finder"],
+        ["xpath=//select[@id='groups']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/section/div/div/div[2]/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71933d9c-7f77-4d4c-a100-0ced903b7244",
+      "comment": "",
+      "command": "select",
+      "target": "id=groups",
+      "targets": [],
+      "value": "label=Food And Civil Supplies Department"
+    }, {
+      "id": "670ac195-8631-4d90-902e-a7ca3b1f11cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=sub_groups",
+      "targets": [
+        ["id=sub_groups", "id"],
+        ["css=#sub_groups", "css:finder"],
+        ["xpath=//select[@id='sub_groups']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/section/div/div/div[2]/div/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dbb7f37-3814-45b8-a84a-144358b6018f",
+      "comment": "",
+      "command": "select",
+      "target": "id=sub_groups",
+      "targets": [],
+      "value": "label=Agricultural Family member Certificate"
+    }, {
+      "id": "1d222ace-ab13-4d27-a14e-c0d53a96385e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.application-id",
+      "targets": [
+        ["css=.application-id", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/section/div/div/div[2]/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "864a3b3a-3c61-4986-9f3a-555d4cbb1784",
+      "comment": "",
+      "command": "type",
+      "target": "css=.application-id",
+      "targets": [
+        ["css=.application-id", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/section/div/div/div[2]/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "bd3afa7c-9d7e-4916-879b-6ed4350961cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.check-status-btn > input",
+      "targets": [
+        ["css=.check-status-btn > input", "css:finder"],
+        ["xpath=(//input[@name='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/section/div/div/div[2]/div/div[2]/div[4]/h4/input", "xpath:idRelative"],
+        ["xpath=//div[4]/h4/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21436dd5-cad3-48df-b9ac-f31e8239768a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.check-status-btn > input",
+      "targets": [
+        ["css=.check-status-btn > input", "css:finder"],
+        ["xpath=(//input[@name='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/section/div/div/div[2]/div/div[2]/div[4]/h4/input", "xpath:idRelative"],
+        ["xpath=//div[4]/h4/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c6c3582-5a73-4d68-8e6f-71b6bde468fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12:nth-child(2) > .check-application-status > div:nth-child(1)",
+      "targets": [
+        ["css=.col-12:nth-child(2) > .check-application-status > div:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='loginform']/section/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3877c0d3-e579-4d56-8f4d-532aef61a83b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-12:nth-child(2) > .check-application-status > div > h4",
+      "targets": [
+        ["css=.col-12:nth-child(2) > .check-application-status > div > h4", "css:finder"],
+        ["xpath=//form[@id='loginform']/section/div/div/div[2]/div/div/h4", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Check Your Application Status')]", "xpath:innerText"]
+      ],
+      "value": "Check Your Application Status"
+    }]
+  }],
+  "suites": [{
+    "id": "79696c7c-c171-4f5c-b4dc-a76acf9b29ff",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7ded5026-aa9c-49e4-9f6f-113bbf238eb4"]
+  }],
+  "urls": ["https://ksrtc.in/"],
+  "plugins": []
+}
